@@ -23,6 +23,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="external\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\stb_image_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\tiny_gltf_full.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="external\tiny_gltf.h">
       <Filter>Header Files</Filter>
     </ClInclude>

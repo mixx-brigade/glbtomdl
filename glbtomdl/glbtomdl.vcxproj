@@ -143,7 +143,11 @@
     <ClCompile Include="tiny_gltf.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="external\json.hpp" />
+    <ClInclude Include="external\stb_image.h" />
+    <ClInclude Include="external\stb_image_write.h" />
     <ClInclude Include="external\tiny_gltf.h" />
+    <ClInclude Include="external\tiny_gltf_full.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
