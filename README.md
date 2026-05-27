@@ -9,3 +9,5 @@ This will be documented once the tool is in a "ready" state.
 © 2026 MIXX Brigade and Valve Corporation. All rights reserved. 
 
 Valve, the Valve logo, Half-Life, Portal, Team Fortress 2, Source, and the Source logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and other countries.
+
+This project is not affiliated with or endorsed by Valve Corporation. 
