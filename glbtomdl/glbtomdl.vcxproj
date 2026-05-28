@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="glbtomdl.cpp" />
+    <ClCompile Include="gltf\gltf_loader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gltf\gltf_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
