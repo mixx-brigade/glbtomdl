@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="glbtomdl/glbtomdl.vcxproj" />
+  <Project Path="glbtomdl/glbtomdl.vcxproj" Id="9c7dbbec-55bc-4430-917e-42b34d357396" />
 </Solution>
