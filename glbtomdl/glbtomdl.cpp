@@ -1,7 +1,24 @@
-#include <tiny_gltf.h>
-#include <glm/glm.hpp>
+#include <iostream>
 
-int main() {
-	glm::vec3 test(1.0f, 2.0f, 3.0f);
-	return 0;
+#include "gltf/gltf_loader.h"
+
+int main(int argc, char** argv)
+{
+    if (argc < 2)
+    {
+        std::cout << "Usage: gltf2mdl.exe model.glb\n";
+        return 1;
+    }
+
+    GLTFLoader loader;
+
+    if (!loader.Load(argv[1]))
+    {
+        std::cout << "[ERROR] Failed to load GLB\n";
+        return 1;
+    }
+
+    std::cout << "[SUCCESS] Done.\n";
+
+    return 0;
 }
