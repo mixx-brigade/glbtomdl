@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "gltf/gltf_loader.h"
+#include "gltf/gltf_header.h"
 
 int main(int argc, char** argv)
 {
