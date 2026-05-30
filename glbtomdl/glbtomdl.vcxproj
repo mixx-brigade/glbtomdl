@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="glbtomdl.cpp" />
     <ClCompile Include="gltf\gltf_loader.cpp" />
+    <ClCompile Include="tinygltf_impl.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gltf\gltf_header.h" />

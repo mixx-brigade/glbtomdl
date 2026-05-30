@@ -6,7 +6,7 @@ int main(int argc, char** argv)
 {
     if (argc < 2)
     {
-        std::cout << "Usage: gltf2mdl.exe model.glb\n";
+        std::cout << "Usage: gltftomdl.exe model.glb\n";
         return 1;
     }
 
